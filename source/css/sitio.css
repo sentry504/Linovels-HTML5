@@ -1,0 +1,87 @@
+.body{
+    min-width: 400px;
+    min-height: 800px;
+}
+
+main{
+    margin-top: 66px;
+    background: linear-gradient(90deg, rgb(40, 40, 48) 0%, rgb(43, 43, 58) 45%, rgb(41, 43, 48) 100%);
+    color: #fff;
+}
+
+aside{
+    background: linear-gradient(90deg, rgb(40, 40, 48) 0%, rgb(43, 43, 58) 45%, rgb(41, 43, 48) 100%);
+}
+
+/*Normalizar links*/
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #fff;  
+    font-family: arial; 
+    text-decoration: none 
+}
+
+/*Seccion actualizaciones*/
+#title{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.title2{
+    background-image: url("../../source/img/Novelas-Ligeras-Japonesas.jpg");
+    background-size:cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+    color: rgb(43, 39, 39);
+    font-weight: 900;
+}
+
+.slide {
+    width: auto;
+    height: 100%;
+    max-height: 500px;
+    overflow-y: hidden;
+}
+
+/*Seccion actualizados*/
+#actualizados{
+    padding-top: 1em;
+    align-content: center;
+}  
+
+.row{
+    padding-top: 6px;
+    gap: 5px;
+}
+
+.imagen{
+    width:100%;
+    max-height: min-content;   
+}
+
+.card-img-top{
+    transition: 0.5s;
+}
+
+.card-img-top:hover{
+    border-radius: 20px;
+
+}
+
+.detalles{
+    padding: 0.5em;
+}
+
+#contenido{
+    transition: 300ms;
+}
+
+#contenido:hover{
+    color: rgba(51, 117, 27, 0.945);
+}
+
+
